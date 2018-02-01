@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+    char a;
+    printf("enter a letter");
+    scanf("%c",&a);
+    if((a>='a' && a<='z')|| (a>='A' && a<='Z'))
+    printf("letter a alphbit");
+    else
+    printf("letter a not alphabit");
+    
+    
+}
